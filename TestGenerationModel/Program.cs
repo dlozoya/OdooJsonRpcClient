@@ -35,6 +35,7 @@ namespace TestGenerationModel
                 Console.WriteLine("Login success");
                 var modelResult = await _odooClient.GetModelAsync(tableName);
                 var model = OdooModelMapper.GetDotNetModel(tableName, modelResult.Value);
+
             }
             else
             {
