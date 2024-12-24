@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortaCapena.OdooJsonRpcClient", "PortaCapena.OdooJsonRpcClient\PortaCapena.OdooJsonRpcClient.csproj", "{71528764-0A12-467E-AB4F-21F2E694A32B}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortaCapena.OdooJsonRpcClient.Example", "PortaCapena.OdooJsonRpcClient.Example\PortaCapena.OdooJsonRpcClient.Example.csproj", "{051178E2-51C3-4617-A025-5CB6A5E38F14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortaCapena.OdooJsonRpcClient.Shared", "PortaCapena.OdooJsonRpcClient.Shared\PortaCapena.OdooJsonRpcClient.Shared.csproj", "{77298CC5-411E-47AE-BABA-AA687C9EB7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGenerationModel", "TestGenerationModel\TestGenerationModel.csproj", "{035272F6-40C5-45F9-915D-4E105C515870}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{77298CC5-411E-47AE-BABA-AA687C9EB7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77298CC5-411E-47AE-BABA-AA687C9EB7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77298CC5-411E-47AE-BABA-AA687C9EB7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035272F6-40C5-45F9-915D-4E105C515870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035272F6-40C5-45F9-915D-4E105C515870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035272F6-40C5-45F9-915D-4E105C515870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035272F6-40C5-45F9-915D-4E105C515870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
